@@ -11,30 +11,12 @@ export default defineConfig({
                 target: 'http://localhost:4001',
             }
         },
-        open: true,
+        open: false,
     },
     build: {
         minify: false,
         cssMinify: false,
         emptyOutDir: true,
         outDir: '../Journal.Api/wwwroot',
-
-        rollupOptions: {
-            output: {
-                chunkFileNames: "assets/ts/[name].ts",
-                entryFileNames: "assets/js/[name].js",
-
-                assetFileNames: ({ name }) => {
-                    if (/\.css$/.test(name ?? "")) {
-                        return 'assets/css/[name][extname]';
-                    }
-
-                    if (/\.woff\d*$/.test(name ?? "")) {
-                        return 'assets/fonts/[name].[ext]';
-                    }
-                    return "assets/[name].[ext]";
-                },
-            },
-        }
     },
 })
