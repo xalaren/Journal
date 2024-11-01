@@ -11,7 +11,7 @@ interface HeaderProps {
 
 export function Header({ children }: HeaderProps) {
     return (
-        <header className="p-20 w-100 flex flex-col justify-between align-items:center gap-10 md:flex-row">
+        <header className="p-20 w-full flex flex-col justify-between align-items:center gap-10 md:flex-row">
             <h1 className="text-3xl font-bold">Name</h1>
             <nav className="flex flex-col gap-10 md:flex-row">
                 {children.map(headerLinkOption => <HeaderLink headerLinkOption={headerLinkOption} />)}
