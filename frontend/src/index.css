@@ -224,7 +224,11 @@
     font-family: 'Inter';
 }
 
-.loader {
+html {
+    height: 100%;
+}
+
+/* .loader {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,4 +251,4 @@
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */

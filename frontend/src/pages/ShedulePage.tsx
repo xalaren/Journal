@@ -1,9 +1,9 @@
 import { MainComponent } from "../components/MainComponent";
 
-export function EditorPage() {
+export function ShedulePage() {
     return (
         <MainComponent>
-            EditorPage
+            ShedulePage
         </MainComponent>
     );
 }

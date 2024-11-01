@@ -1,11 +1,10 @@
-import { Loader } from "../components/Loader";
+import { DutyCard } from "../components/Duty/DutyCard";
 import { MainComponent } from "../components/MainComponent";
 
 export function ViewPage() {
     return (
         <MainComponent>
-            ViewPage
-            <Loader />
+            <DutyCard />
         </MainComponent>
     );
 }

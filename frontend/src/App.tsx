@@ -3,8 +3,8 @@ import { Header } from "./components/Header"
 import "./index.css"
 import { ViewPage } from "./pages/ViewPage"
 import { ViewPagePath } from "./paths/ViewPagePath"
-import { EditorPage } from "./pages/EditorPage"
-import { EditorPagePath } from "./paths/EditorPagePath"
+import { ShedulePage } from "./pages/ShedulePage"
+import { ShedulePagePath } from "./paths/ShedulePagePath"
 
 function App() {
     return (
@@ -12,13 +12,13 @@ function App() {
             <Header>
                 {[
                     { text: 'Home', path: ViewPagePath },
-                    { text: 'Editor', path: EditorPagePath },
+                    { text: 'Shedule', path: ShedulePagePath },
                 ]}
             </Header>
 
             <Routes>
                 <Route path={ViewPagePath} element={<ViewPage />}></Route>
-                <Route path={EditorPagePath} element={<EditorPage />}></Route>
+                <Route path={ShedulePagePath} element={<ShedulePage />}></Route>
             </Routes>
         </>
     )
