@@ -1,6 +1,11 @@
 import { ArrowOptions } from "../../enums/ArrowOptions";
+import { Duty } from "../../models/duty";
 import { VioletArrowButton } from "../Buttons/VioletArrowButton";
 import { VioletTransparentButton } from "../Buttons/VioletTransparentButton";
+
+interface DutyCardProps {
+    duty: Duty;
+}
 
 export function DutyCard() {
     return (
@@ -13,7 +18,7 @@ export function DutyCard() {
             max-w-[700px] 
             min-h-[300px] 
             border-[2px] 
-            border-gray-200 rounded-md
+            border-gray-200 rounded-md 
         ">
             <p className="
                 text-3xl
