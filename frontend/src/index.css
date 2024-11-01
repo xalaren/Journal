@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "learnlinkico";
+    src: url("assets/fonts/learnlinkico.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 /* inter-regular - cyrillic_latin */
 @font-face {
     font-display: swap;
@@ -9,7 +17,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/inter-v18-cyrillic_latin-regular.woff2') format('woff2');
+    src: url('assets/fonts/inter-v18-cyrillic_latin-regular.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -20,7 +28,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/inter-v18-cyrillic_latin-500.woff2') format('woff2');
+    src: url('assets/fonts/inter-v18-cyrillic_latin-500.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -31,7 +39,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/inter-v18-cyrillic_latin-600.woff2') format('woff2');
+    src: url('assets/fonts/inter-v18-cyrillic_latin-600.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -42,16 +50,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/inter-v18-cyrillic_latin-700.woff2') format('woff2');
+    src: url('assets/fonts/inter-v18-cyrillic_latin-700.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-@font-face {
-    font-family: "learnlinkico";
-    src: url("../../assets/fonts/learnlinkico.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
 }
 
 [class^=icon-],
@@ -220,14 +220,6 @@
     content: "\e926";
 }
 
-html,
-body {
-    font-size: 16px;
-    font-family: 'Inter';
-}
-
 * {
-    font-size: 16px;
-    color: #505050;
     font-family: 'Inter';
 }
