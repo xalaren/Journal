@@ -17,7 +17,7 @@ export default defineConfig({
         minify: false,
         cssMinify: false,
         emptyOutDir: true,
-        outDir: '../LevelsCompletionTracker.WebApi/wwwroot',
+        outDir: '../Journal.Api/wwwroot',
 
         rollupOptions: {
             output: {
