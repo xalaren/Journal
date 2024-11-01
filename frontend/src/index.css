@@ -2,180 +2,232 @@
 @tailwind components;
 @tailwind utilities;
 
+/* inter-regular - cyrillic_latin */
 @font-face {
-  font-family: "learnlinkico";
-  src: url("../../assets/fonts/learnlinkico.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* inter-500 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v18-cyrillic_latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-cyrillic_latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v18-cyrillic_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-family: "learnlinkico";
+    src: url("../../assets/fonts/learnlinkico.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 [class^=icon-],
 [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "learnlinkico" !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "learnlinkico" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-arrow-down:before {
-  content: "\e901";
+    content: "\e901";
 }
 
 .icon-arrow-left:before {
-  content: "\e902";
+    content: "\e902";
 }
 
 .icon-arrow-left-dotted:before {
-  content: "\e903";
+    content: "\e903";
 }
 
 .icon-arrow-right:before {
-  content: "\e904";
+    content: "\e904";
 }
 
 .icon-arrow-right-dotted:before {
-  content: "\e905";
+    content: "\e905";
 }
 
 .icon-arrow-up:before {
-  content: "\e906";
+    content: "\e906";
 }
 
 .icon-badge:before {
-  content: "\e907";
+    content: "\e907";
 }
 
 .icon-beaker:before {
-  content: "\e908";
+    content: "\e908";
 }
 
 .icon-bolt:before {
-  content: "\e909";
+    content: "\e909";
 }
 
 .icon-burger:before {
-  content: "\e90a";
+    content: "\e90a";
 }
 
 .icon-chat:before {
-  content: "\e90b";
+    content: "\e90b";
 }
 
 .icon-check:before {
-  content: "\e90c";
+    content: "\e90c";
 }
 
 .icon-code-add:before {
-  content: "\e90d";
+    content: "\e90d";
 }
 
 .icon-cross:before {
-  content: "\e90e";
+    content: "\e90e";
 }
 
 .icon-cross-circle:before {
-  content: "\e90f";
+    content: "\e90f";
 }
 
 .icon-document-add:before {
-  content: "\e910";
+    content: "\e910";
 }
 
 .icon-ellipsis:before {
-  content: "\e911";
+    content: "\e911";
 }
 
 .icon-file:before {
-  content: "\e912";
+    content: "\e912";
 }
 
 .icon-invisible:before {
-  content: "\e913";
+    content: "\e913";
 }
 
 .icon-invisible-circle:before {
-  content: "\e914";
+    content: "\e914";
 }
 
 .icon-lock:before {
-  content: "\e915";
+    content: "\e915";
 }
 
 .icon-minus:before {
-  content: "\e916";
+    content: "\e916";
 }
 
 .icon-module:before {
-  content: "\e917";
+    content: "\e917";
 }
 
 .icon-notification:before {
-  content: "\e918";
+    content: "\e918";
 }
 
 .icon-pen:before {
-  content: "\e919";
+    content: "\e919";
 }
 
 .icon-pen-circle:before {
-  content: "\e91a";
+    content: "\e91a";
 }
 
 .icon-plus:before {
-  content: "\e91b";
+    content: "\e91b";
 }
 
 .icon-plus-circle:before {
-  content: "\e91c";
+    content: "\e91c";
 }
 
 .icon-power:before {
-  content: "\e91d";
+    content: "\e91d";
 }
 
 .icon-search:before {
-  content: "\e91e";
+    content: "\e91e";
 }
 
 .icon-star:before {
-  content: "\e91f";
+    content: "\e91f";
 }
 
 .icon-text-add:before {
-  content: "\e920";
+    content: "\e920";
 }
 
 .icon-update:before {
-  content: "\e921";
+    content: "\e921";
 }
 
 .icon-user:before {
-  content: "\e922";
+    content: "\e922";
 }
 
 .icon-user-group:before {
-  content: "\e923";
+    content: "\e923";
 }
 
 .icon-user-group-circle:before {
-  content: "\e924";
+    content: "\e924";
 }
 
 .icon-user-lock:before {
-  content: "\e925";
+    content: "\e925";
 }
 
 .icon-visible:before {
-  content: "\e926";
+    content: "\e926";
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Inter';
 }
 
 * {
-  font-size: 16px;
-  color: #505050;
+    font-size: 16px;
+    color: #505050;
+    font-family: 'Inter';
 }
