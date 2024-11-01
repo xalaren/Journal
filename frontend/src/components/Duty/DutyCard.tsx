@@ -27,12 +27,12 @@ export function DutyCard({ duty }: DutyCardProps) {
                             {duty.isNowActive && 'Today,'} {(new Date()).toLocaleDateString()} {duty.isArchive && '(archive)'}
                         </p>
                         <div>
-                            <p className="flex items-center gap-4">
+                            <div className="flex items-center gap-4">
                                 <span className="icon-user text-2xl"></span>
                                 <p>{duty.employee.lastname} {duty.employee.name[0]}. {duty.employee.middleName ? `${duty.employee.middleName[0]}. ` : ''}
                                     <span className="text-violet-500 font-medium">({duty.cost})</span>
                                 </p>
-                            </p>
+                            </div>
                         </div>
                     </> :
                     <p>No data for now...</p>
