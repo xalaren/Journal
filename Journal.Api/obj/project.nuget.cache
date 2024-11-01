@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UG+pmLniKTo=",
+  "dgSpecHash": "2+nzd5DrgVw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\Journal.Api.csproj",
+  "projectFilePath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Карина\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Карина\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

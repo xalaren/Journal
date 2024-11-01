@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\Journal.Api.csproj": {}
+    "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\Journal.Api.csproj": {
+    "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\Journal.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api.csproj",
         "projectName": "Journal.Api",
-        "projectPath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\Journal.Api.csproj",
+        "projectPath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api.csproj",
         "packagesPath": "C:\\Users\\Карина\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\Journal.Api\\obj\\",
+        "outputPath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Карина\\AppData\\Roaming\\NuGet\\NuGet.Config",
