@@ -1,4 +1,6 @@
-﻿namespace Journal.Api.Extensions
+﻿using Journal.Api.Helpers;
+
+namespace Journal.Api.Extensions
 {
     public static class WebApplicationExtensions
     {

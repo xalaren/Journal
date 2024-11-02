@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|solutionrelative:journal.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|c:\\users\\\u043A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\journal\\journal.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|solutionrelative:journal.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|c:\\users\\\u043A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\journal\\journal.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|solutionrelative:journal.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|c:\\users\\\u043A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\journal\\journal.api\\helpers\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|solutionrelative:journal.api\\helpers\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|c:\\users\\\u043A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\journal\\journal.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|solutionrelative:journal.api\\extensions\\webapplicationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AF41A76-ED61-4656-9B5C-83DFAB3804ED}|Journal.Api\\Journal.Api.csproj|c:\\users\\\u043A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\journal\\journal.api\\extensions\\serverconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "Journal.Api\\Program.cs",
               "ToolTip": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\Program.cs",
               "RelativeToolTip": "Journal.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T06:45:23.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Journal.Api\\appsettings.json",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DbProviderConfig.cs",
               "DocumentMoniker": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\Helpers\\DbProviderConfig.cs",
               "RelativeDocumentMoniker": "Journal.Api\\Helpers\\DbProviderConfig.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Launcher.cs",
               "DocumentMoniker": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\Helpers\\Launcher.cs",
               "RelativeDocumentMoniker": "Journal.Api\\Helpers\\Launcher.cs",
@@ -91,15 +91,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "WebApplicationExtensions.cs",
               "DocumentMoniker": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\Extensions\\WebApplicationExtensions.cs",
               "RelativeDocumentMoniker": "Journal.Api\\Extensions\\WebApplicationExtensions.cs",
               "ToolTip": "C:\\Users\\\u041A\u0430\u0440\u0438\u043D\u0430\\source\\repos\\Journal\\Journal.Api\\Extensions\\WebApplicationExtensions.cs",
               "RelativeToolTip": "Journal.Api\\Extensions\\WebApplicationExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T06:36:10.272Z"
+              "WhenOpened": "2024-11-02T06:36:10.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

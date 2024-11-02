@@ -1069,6 +1069,41 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Journal.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Journal.Core": "1.0.0",
+          "Journal.Shared": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Journal.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Journal.App.dll": {}
+        }
+      },
+      "Journal.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Journal.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Journal.Core.dll": {}
+        }
+      },
+      "Journal.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Journal.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Journal.Shared.dll": {}
+        }
       }
     }
   },
@@ -2826,10 +2861,26 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Journal.App/1.0.0": {
+      "type": "project",
+      "path": "../Journal.App/Journal.App.csproj",
+      "msbuildProject": "../Journal.App/Journal.App.csproj"
+    },
+    "Journal.Core/1.0.0": {
+      "type": "project",
+      "path": "../Journal.Core/Journal.Core.csproj",
+      "msbuildProject": "../Journal.Core/Journal.Core.csproj"
+    },
+    "Journal.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Journal.Shared/Journal.Shared.csproj",
+      "msbuildProject": "../Journal.Shared/Journal.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Journal.App >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
@@ -2864,7 +2915,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.App\\Journal.App.csproj": {
+              "projectPath": "C:\\Users\\Карина\\source\\repos\\Journal\\Journal.App\\Journal.App.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
