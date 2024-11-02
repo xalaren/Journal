@@ -13,12 +13,14 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-.vs/*
-.vs/Journal/*
+**/bin/**
+x/**
+!x/bin
+**/obj/**
+!x/obj
+.vscode/**
+.vs/**
 .vs/ProjectEvaluation/*
-*/bin/*
-*/obj/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -29,3 +31,4 @@ dist-ssr
 *.sw?
 
 # Build 
+/Journal.Api/JournalApp.db
