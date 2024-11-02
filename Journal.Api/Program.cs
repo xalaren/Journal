@@ -1,4 +1,19 @@
+using Journal.Api.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var configuration = builder.Configuration;
+
+builder.WebHost.UseUrls(configuration.Url());
+builder.Services.AddCors(options => options.AddPolicy(
+    "CorsPolicy",
+    policyBuilder =>
+    {
+        policyBuilder.WithOrigins(configuration.ClientUrl())
+            .AllowAnyHeader()
+            .AllowAnyOrigin();
+    }
+));
 
 // Add services to the container.
 
