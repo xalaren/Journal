@@ -1,6 +1,6 @@
 using Journal.Api.Extensions;
 using Journal.Api.Helpers;
-using Journal.App.Data.Contexts;
+using Journal.App.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
