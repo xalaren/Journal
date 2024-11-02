@@ -1,62 +1,31 @@
-import { ArrowOptions } from "../../enums/ArrowOptions";
 import { Duty } from "../../models/Duty";
-import { VioletArrowButton } from "../Buttons/VioletArrowButton";
-import { VioletTransparentButton } from "../Buttons/VioletTransparentButton";
+import { Badge } from "../Badge";
 
 interface DutyCardProps {
     duty: Duty;
+    onClick: () => void;
 }
 
 export function DutyCard({ duty }: DutyCardProps) {
     return (
         <section className="
-            flex 
-            flex-col 
-            justify-between 
-            gap-5 
-            p-6 
-            max-w-[700px] 
-            min-h-[300px] 
+            p-10 
+            max-w-[400px] 
             border-[2px] 
-            border-gray-200 rounded-md 
+            border-gray-200 
+            rounded-md 
+            hover:border-violet-500
+            ease-in-out
+            duration-300
+            select-none
         ">
-            <>
-                {duty ?
-                    <>
-                        <p className="text-3xl font-medium">
-                            {duty.isNowActive && 'Today,'} {(new Date()).toLocaleDateString()} {duty.isArchive && '(archive)'}
-                        </p>
-                        <div>
-                            <div className="flex items-center gap-4">
-                                <span className="icon-user text-2xl"></span>
-                                <p>{duty.employee.lastname} {duty.employee.name[0]}. {duty.employee.middleName ? `${duty.employee.middleName[0]}. ` : ''}
-                                    <span className="text-violet-500 font-medium">({duty.cost})</span>
-                                </p>
-                            </div>
-                        </div>
-                    </> :
-                    <p>No data for now...</p>
-                }
-
-                <nav className="flex gap-5 justify-between items-center">
-                    <VioletTransparentButton onClick={() => { }}>
-                        Today
-                    </VioletTransparentButton>
-                    <div className="flex gap-2">
-                        <VioletArrowButton
-                            arrowOption={ArrowOptions.Left}
-                            disabled={false}
-                            onClick={() => { }}
-                        />
-                        <VioletArrowButton
-                            arrowOption={ArrowOptions.Right}
-                            disabled={false}
-                            onClick={() => { }}
-                        />
-                    </div>
-                </nav>
-            </>
-
+            <div className="flex gap-5 mb-5">
+                <span className="icon-user text-3xl"></span>
+                <p className="text-xl font-medium">
+                    {duty.employee.lastname} {duty.employee.name ? `${duty.employee.name[0]}. ` : ''} {duty.employee.middleName ? `${duty.employee.middleName[0]}. ` : ''}
+                </p>
+            </div>
+            <Badge text={duty.employee.specialization.name} color={duty.employee.specialization.color} />
         </section>
     );
 }

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { NotificationTypes } from "../../enums/NotificationTypes";
+import { NotificationTypes } from "../enums/NotificationTypes";
 import success from "../../assets/img/success.svg";
 import failed from "../../assets/img/failed.svg";
 

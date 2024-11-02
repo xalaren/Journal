@@ -1,10 +1,8 @@
 import { Employee } from "./Employee";
 
 export interface Duty {
-    id: string;
+    id: number;
     date: Date;
     cost: number;
-    isNowActive: boolean;
-    isArchive: boolean;
     employee: Employee;
 }

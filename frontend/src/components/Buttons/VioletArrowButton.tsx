@@ -14,12 +14,11 @@ export function VioletArrowButton(props: VioletArrowButtonProps) {
                 w-[40px]
                 h-[40px]
                 rounded-full
-                bg-violet-500
                 text-white
                 text-xl
                 ease-in-out
                 duration-300
-                ${!props.disabled && 'hover:bg-violet-700'}
+                ${!props.disabled && 'bg-violet-500 hover:bg-violet-700'}
                 ${props.disabled && 'cursor-auto bg-gray-300'}
                 ${props.arrowOption}
             `}>
