@@ -1,7 +1,7 @@
 ﻿using Journal.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Journal.App.Data.Contexts
+namespace Journal.App.Data
 {
     public class AppDbContext(DbContextOptions options) : DbContext(options)
     {
